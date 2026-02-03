@@ -271,3 +271,37 @@ transform: translateY(0% );
 
 
 }
+
+
+
+.home{
+
+
+.home {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 0 10%; 
+}
+
+
+@media (max-width: 768px) {
+    .home {
+        flex-direction: column; 
+        padding: 20px; 
+        text-align: center; 
+    }
+
+    
+    .home-info {
+        margin-bottom: 30px; 
+    }
+    
+    /
+    .home-img img {
+        width: 80%; 
+    }
+}
+
+
+}
