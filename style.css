@@ -277,7 +277,7 @@ transform: translateY(0% );
 .home{
 
 
-.home {
+.home{
     display: flex;
     align-items: center; 
     justify-content: space-between; 
